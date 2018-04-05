@@ -1,2 +1,4 @@
-# commentaire
-
+# activation nbpresent
+jupyter nbextension install nbpresent --py --overwrite
+jupyter nbextension enable nbpresent --py
+jupyter serverextension enable nbpresent --py
