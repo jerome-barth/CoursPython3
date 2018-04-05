@@ -1,3 +1,4 @@
+jupyter nbextensions_configurator enable --user
 # activation nbpresent
 jupyter nbextension install nbpresent --py --overwrite
 jupyter nbextension enable nbpresent --py
