@@ -1,4 +1,5 @@
 numpy
 pandas
 matplotlib
-ipywidgets
+ipywidgets==7.2.0
+nbpresent
