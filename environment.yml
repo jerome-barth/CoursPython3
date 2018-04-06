@@ -1,8 +1,11 @@
+name: binder
 channels:
+  - anaconda-nb-extensions
   - damianavila82
   - conda-forge
 dependencies:
-  - python
+  - python=3.5
+  - nbpresent
   - numpy
   - matplotlib
   - pandas
@@ -10,4 +13,5 @@ dependencies:
   - rise
   - jupyter_contrib_nbextensions
   - jupyter_nbextensions_configurator
-  - nbpresent
+  - ipywidgets
+  - notebook
